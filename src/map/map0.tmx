@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="Dirt.tsx"/>
+ <tileset firstgid="241" source="Grass.tsx"/>
+ <layer name="terrain" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2TwW3DMAxFyUMHqO0O0DrtQfISBbr/MIkHqIT4w1+EcorQXv4DCNGUTPOTspkQQgghhBBCCCGEEEIIIYQQ/8fqZrvd7VrsRv41xLHe6FyM79bm2+nc/iDnlz+v47XYVGwpNh8r/ImeOTZ3/Dnk4djUeZ+fP5+XYR401Ly5BDe/r7C6n454XevZzU+LsUR7y/Eu8rDW6r8N0sF9577WGrh/m7f7yduZIMdkZ/3Y2zo6sL4M0PFd7EK1xboXa+vOftafaF4p1J06PcgUw31bi/0M0AHeKTdqyd72jnXxvV/s7HWcHd/X+L+MuE8RzAWzgQ6eE+59pnnwTGL/uWb8c9VfbfwcHmn6OL4V10vHh/6VnjmO839RuxBCCMH8AvH1clAQJwAA
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="50" height="50" visible="0">
+  <object x="128" y="544" width="544" height="80"/>
+  <object x="160" y="624" width="480" height="32"/>
+  <object x="208" y="656" width="384" height="16"/>
+  <object name="Player" x="387" y="426" width="32" height="48">
+   <properties>
+    <property name="Type" value="Player"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

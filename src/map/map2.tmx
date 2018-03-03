@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="200" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="Stone.tsx"/>
+ <tileset firstgid="241" source="Dirt.tsx"/>
+ <tileset firstgid="481" source="Grass.tsx"/>
+ <layer name="terrain" width="100" height="200">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="100" height="200" visible="0">
+  <object name="Player" x="170" y="3023" width="24" height="38">
+   <properties>
+    <property name="Type" value="Player"/>
+   </properties>
+  </object>
+  <object x="10" y="3078" width="1590" height="116"/>
+  <object x="12" y="4" width="130" height="3072"/>
+  <object x="580" y="2950" width="56" height="122"/>
+  <object x="1505" y="2" width="86" height="3072"/>
+  <object x="144" y="10" width="1366" height="100"/>
+  <object x="674" y="2819" width="202" height="57"/>
+  <object x="819" y="2294" width="57" height="520"/>
+  <object x="387" y="2691" width="170" height="59"/>
+  <object x="140" y="2580" width="144" height="58"/>
+  <object x="325" y="2499" width="27" height="27"/>
+  <object x="403" y="2451" width="27" height="27"/>
+  <object x="483" y="2404" width="29" height="26"/>
+  <object x="562" y="2358" width="28" height="23"/>
+  <object x="642" y="2309" width="29" height="25"/>
+  <object x="883" y="2388" width="621" height="41"/>
+  <object x="897" y="2211" width="108" height="45"/>
+  <object x="772" y="2037" width="93" height="43"/>
+  <object x="689" y="1987" width="31" height="29"/>
+  <object x="784" y="1747" width="32" height="32"/>
+  <object x="1137" y="1889" width="32" height="32"/>
+  <object x="1233" y="1841" width="30" height="31"/>
+  <object x="1329" y="1825" width="180" height="62"/>
+  <object x="1282" y="1347" width="29" height="363"/>
+  <object x="1058" y="1346" width="223" height="29"/>
+  <object x="1489" y="1729" width="14" height="15"/>
+  <object x="1362" y="1665" width="13" height="14"/>
+  <object x="1490" y="1618" width="14" height="13"/>
+  <object x="1361" y="1538" width="14" height="13"/>
+  <object x="1488" y="1474" width="16" height="16"/>
+  <object x="1361" y="1408" width="14" height="15"/>
+  <object x="1489" y="1346" width="16" height="14"/>
+  <object x="977" y="1407" width="30" height="31"/>
+  <object x="785" y="1410" width="30" height="31"/>
+  <object x="595" y="1409" width="30" height="31"/>
+  <object x="433" y="1409" width="30" height="31"/>
+  <object x="353" y="1298" width="30" height="31"/>
+  <object x="145" y="1218" width="110" height="60"/>
+  <object x="561" y="1937" width="32" height="32"/>
+  <object x="401" y="1855" width="32" height="32"/>
+  <object x="322" y="1777" width="32" height="32"/>
+  <object x="144" y="1649" width="157" height="77"/>
+  <object x="435" y="1601" width="32" height="32"/>
+  <object x="594" y="1681" width="32" height="32"/>
+  <object x="323" y="1026" width="1183" height="77"/>
+  <object x="609" y="241" width="383" height="77"/>
+  <object x="738" y="147" width="124" height="91">
+   <properties>
+    <property name="Check" value="final"/>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object x="433" y="943" width="30" height="31"/>
+  <object x="498" y="800" width="30" height="31"/>
+  <object x="564" y="689" width="30" height="31"/>
+  <object x="626" y="594" width="30" height="31"/>
+  <object x="705" y="498" width="30" height="31"/>
+  <object x="785" y="450" width="30" height="31"/>
+  <object x="916" y="324" width="75" height="331"/>
+  <object x="931" y="753" width="109" height="47"/>
+  <object x="1137" y="544" width="16" height="16"/>
+  <object x="1250" y="351" width="16" height="16"/>
+  <object x="1041" y="255" width="16" height="16"/>
+  <object name="Skeleton" x="822" y="2229" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="275" y="1603" width="22" height="35">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="1335" y="1782" width="22" height="35">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="232" y="1182" width="22" height="35">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="932" y="711" width="22" height="35">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="587" y="2880" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="216" y="2528" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="822" y="1968" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="200" y="1592" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="1390" y="1770" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="1074" y="1288" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="166" y="1152" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="984" y="682" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="bow" x="164" y="2534" width="35" height="35">
+   <properties>
+    <property name="Contained" value="bow"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Item"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

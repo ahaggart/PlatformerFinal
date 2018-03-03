@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="400" height="100" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="Stone Brick.tsx"/>
+ <tileset firstgid="241" source="Dirt.tsx"/>
+ <tileset firstgid="481" source="Grass.tsx"/>
+ <tileset firstgid="833" source="Grass.tsx"/>
+ <tileset firstgid="1185" source="Dirt.tsx"/>
+ <layer name="terrain" width="400" height="100">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="400" height="100" visible="0">
+  <object x="2" y="0" width="122" height="1218"/>
+  <object name="Player" x="164" y="1116" width="42" height="64">
+   <properties>
+    <property name="Type" value="Player"/>
+   </properties>
+  </object>
+  <object x="6225" y="1" width="148" height="1214"/>
+  <object x="865" y="1121" width="140" height="99"/>
+  <object x="2576" y="1135" width="141" height="81"/>
+  <object name="Zombie" x="1106" y="1122" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="1263" y="1111" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="1403" y="1098" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="1588" y="1074" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="1776" y="1061" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="1942" y="1070" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2139" y="1059" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2234" y="1057" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2330" y="1045" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2511" y="1085" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2048" y="1071" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="1667" y="1051" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object x="1" y="1217" width="1004" height="153"/>
+  <object x="1005" y="1220" width="1637" height="107"/>
+  <object x="2717" y="1213" width="1473" height="151"/>
+  <object x="4191" y="1215" width="2061" height="165"/>
+  <object x="4096" y="1136" width="125" height="80"/>
+  <object name="Zombie" x="3253" y="1081" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2771" y="1129" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3804" y="1066" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3441" y="1068" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2928" y="1118" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3607" y="1077" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3068" y="1105" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3713" y="1078" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3899" y="1064" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3995" y="1052" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3332" y="1058" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4565" y="1114" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4379" y="1128" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4661" y="1102" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4273" y="1127" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4470" y="1116" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="5034" y="1093" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4848" y="1107" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="5130" y="1081" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4742" y="1106" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4939" y="1095" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="5844" y="1132" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="5658" y="1146" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="5940" y="1120" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="5552" y="1145" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="5749" y="1134" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object x="5696" y="1008" width="80" height="32"/>
+  <object x="5521" y="1058" width="80" height="32"/>
+  <object x="5888" y="1039" width="80" height="32"/>
+  <object x="5265" y="1008" width="80" height="32"/>
+  <object x="4960" y="1041" width="80" height="32"/>
+  <object x="4449" y="1039" width="80" height="32"/>
+  <object x="4753" y="992" width="80" height="32"/>
+  <object x="2833" y="1039" width="80" height="32"/>
+  <object x="3073" y="1041" width="80" height="32"/>
+  <object x="3345" y="992" width="80" height="32"/>
+  <object x="3505" y="1009" width="80" height="32"/>
+  <object x="3696" y="991" width="80" height="32"/>
+  <object x="3889" y="992" width="80" height="32"/>
+  <object name="Skeleton" x="3902" y="912" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="3520" y="932" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="3088" y="938" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="2850" y="928" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="3358" y="890" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="3718" y="892" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="4460" y="958" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="4760" y="898" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="4966" y="942" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="5272" y="910" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="5540" y="946" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="5716" y="918" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="5898" y="950" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Skeleton" x="6160" y="918" width="40" height="52">
+   <properties>
+    <property name="Type" value="Skeleton"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="922" y="1066" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="2630" y="1076" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="4146" y="1092" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="6154" y="1148" width="37" height="53">
+   <properties>
+    <property name="Check" value="final"/>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="potion" x="6072" y="1150" width="35" height="35">
+   <properties>
+    <property name="Contained" value="potion"/>
+    <property name="Quantity" value="30"/>
+    <property name="Type" value="Item"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

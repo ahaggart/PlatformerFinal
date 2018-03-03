@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="100" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="Dirt.tsx"/>
+ <tileset firstgid="241" source="Grass.tsx"/>
+ <imagelayer name="background" width="200" height="100"/>
+ <layer name="terrain" width="200" height="100">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="200" height="100" visible="0">
+  <object x="4" y="6" width="218" height="1602"/>
+  <object x="226" y="1410" width="3026" height="226"/>
+  <object x="3018" y="16" width="182" height="1394"/>
+  <object x="224" y="4" width="2790" height="126"/>
+  <object x="296" y="1356" width="36" height="41">
+   <properties>
+    <property name="Type" value="Player"/>
+   </properties>
+  </object>
+  <object x="2704" y="1080" width="36" height="40">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object x="2266" y="1050" width="106" height="62"/>
+  <object x="2026" y="938" width="174" height="64"/>
+  <object x="2004" y="1144" width="164" height="50"/>
+  <object x="2104" y="1354" width="122" height="56"/>
+  <object x="2244" y="1270" width="132" height="66"/>
+  <object x="2377" y="838" width="165" height="570"/>
+  <object x="2539" y="837" width="474" height="160"/>
+  <object x="2546" y="1218" width="466" height="194"/>
+  <object x="2884" y="1010" width="124" height="206"/>
+  <object x="2324" y="867" width="48" height="26"/>
+  <object x="2346" y="898" width="27" height="13"/>
+  <object x="2340" y="850" width="32" height="13"/>
+  <object x="2692" y="619" width="220" height="207">
+   <properties>
+    <property name="Check" value="final"/>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Mallet" x="624" y="1328" width="35" height="35">
+   <properties>
+    <property name="Contained" value="mallet"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Item"/>
+   </properties>
+  </object>
+  <object name="sword" x="1536" y="1340" width="35" height="35">
+   <properties>
+    <property name="Contained" value="sword"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Item"/>
+   </properties>
+  </object>
+  <object name="potions" x="2481" y="766" width="35" height="35">
+   <properties>
+    <property name="Contained" value="potion"/>
+    <property name="Quantity" value="20"/>
+    <property name="Type" value="Item"/>
+   </properties>
+  </object>
+  <object name="pumpkin" x="815" y="1308" width="36" height="40">
+   <properties>
+    <property name="Type" value="Pumpkin"/>
+   </properties>
+  </object>
+  <object name="pumpkin" x="925" y="1303" width="36" height="40">
+   <properties>
+    <property name="Type" value="Pumpkin"/>
+   </properties>
+  </object>
+  <object name="pumpkin" x="1042" y="1301" width="36" height="40">
+   <properties>
+    <property name="Type" value="Pumpkin"/>
+   </properties>
+  </object>
+  <object name="pumpkin" x="1147" y="1291" width="36" height="40">
+   <properties>
+    <property name="Type" value="Pumpkin"/>
+   </properties>
+  </object>
+  <object name="pumpkin" x="1275" y="1289" width="36" height="40">
+   <properties>
+    <property name="Type" value="Pumpkin"/>
+   </properties>
+  </object>
+  <object name="pumpkin" x="1383" y="1288" width="36" height="40">
+   <properties>
+    <property name="Type" value="Pumpkin"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

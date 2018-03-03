@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="350" height="100" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="Dirt.tsx"/>
+ <tileset firstgid="241" source="Stone.tsx"/>
+ <layer name="terrain" width="350" height="100">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="350" height="100" visible="0">
+  <object name="Player" x="225" y="204" width="29" height="47">
+   <properties>
+    <property name="Type" value="Player"/>
+   </properties>
+  </object>
+  <object x="0" y="3" width="206" height="1597"/>
+  <object x="212" y="1409" width="5388" height="191"/>
+  <object x="209" y="0" width="5394" height="188"/>
+  <object x="5445" y="197" width="155" height="1215"/>
+  <object x="208" y="257" width="108" height="93"/>
+  <object x="1185" y="191" width="75" height="1147"/>
+  <object x="291" y="419" width="896" height="75"/>
+  <object x="1040" y="495" width="45" height="127"/>
+  <object x="209" y="691" width="877" height="92"/>
+  <object x="289" y="784" width="47" height="48"/>
+  <object x="289" y="899" width="896" height="107"/>
+  <object x="319" y="402" width="16" height="16"/>
+  <object name="Zombie" x="1124" y="359" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="459" y="351" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="743" y="347" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="646" y="339" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="964" y="343" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object x="336" y="1216" width="96" height="47"/>
+  <object x="576" y="1151" width="112" height="49"/>
+  <object x="784" y="1201" width="128" height="63"/>
+  <object x="977" y="1151" width="109" height="48"/>
+  <object name="Zombie" x="1398" y="1330" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="1070" y="1338" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="796" y="1338" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="624" y="1318" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="398" y="1328" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="306" y="1332" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="1800" y="1113" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2026" y="1066" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2265" y="1042" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2640" y="1048" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="2981" y="1020" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3164" y="1034" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3323" y="1020" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3547" y="1030" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="3814" y="1062" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4017" y="1054" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4219" y="1083" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4488" y="1078" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4794" y="1103" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="5100" y="1133" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object name="Zombie" x="4948" y="1112" width="29" height="44">
+   <properties>
+    <property name="Type" value="Zombie"/>
+   </properties>
+  </object>
+  <object x="1169" y="401" width="16" height="16"/>
+  <object x="1553" y="1361" width="3891" height="47"/>
+  <object x="1936" y="1312" width="2751" height="48"/>
+  <object x="2113" y="1265" width="2158" height="47"/>
+  <object x="2498" y="1218" width="1213" height="47"/>
+  <object x="5305" y="1216" width="127" height="136">
+   <properties>
+    <property name="Check" value="final"/>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="239" y="637" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="382" y="836" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="245" y="1345" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+  <object name="Checkpoint" x="3214" y="1154" width="37" height="53">
+   <properties>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

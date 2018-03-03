@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="75" height="100" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="Stone Brick.tsx"/>
+ <layer name="Tile Layer 1" width="75" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2aUY7jMAxDc4Y09z/r7iItYLw8ut1vSsBgpk0mdhSKpui8juN4vX+uvz/n+/f1/u5cjr9w/FqOn7jO57tTrnVivPU8jr9e78K5nMOFc9c5vI7nffA8jmVj2xicyxnG4dz5v3bfdh/2TGys9Xnx83U852nPinO3ufDeUl4NM/w7YcOO7/BgGEzfGf54POGB8zXc2lgp92nunIPlhfO2XNuciDdej/f5wv+lHBNj9ox249nz3d3nLm82N+LuG68Rs1bzVqeWsx1vGY/sOMNqMeU1Yduexa7+Wd/GeYnvyMXpmnafKWc7Lkk1ZM9ix8l8Zt+wlZ6lYZ31ksbd4Trh4RfMEN/pPhKffc5rjfQ8LJefHLYG152UnxVvrWE8lta5z09rGEeSr1mnrZH03Y7fW4MYsvWUmqI1kt41HdPO7ZYr9gyjGe4wTfBN67ZG0gmmr9q53bwR0wprLbYGe2jzCuiXtAbXvl39tddg8jpMQ0yP8/SpjN/XPLZG8kST99COq//xg5vXQfOorZ9ej7UGPXnyuPnSrZE8htTjTK7cT7D+ppmv2MekvaepQfc+2UtTm7ZG2sM1rdCu200nUEdQw7cGa42cbj1iayS/mDlatUNr/LIvz3y1huXEsDRa9Nk3U0+Z39carDf2f9ZLtwZ1gu1/Xcfw1b8gR1kd0v9rDdNT6T2G8fqeGtR4fvZxvEfe9YjNuGKO0to3e6m5Z077q+2aIfkJSZu2RuqRuQ6u57SGaU/b0xnN8Oxrksc+3J61FT322aPPXJ7WwHZccZ/LesQ1n61hfGVcNbjaY4nrX/s6aO978PP4onfQD7V9nNlLvSNxuvXU7b5o6mWs9tr1VXrfg/kZv917Zetrhtv373skrdUatgdhtTden/tX1t/MOujvK5iuWnPZGtRW5oMSW61BTybx1uwP+j6XrYNrTlvDNIPlaPXiW2OtOesHyfPNuCKHp9pbv2sNe3/I/Jjhq7y3vK5/oxnuSNxOrTV85bVm+8+jr/Za1NbEZm7nno356+O337Hihf2M7bE248p8BVsH18+tYXuDxNPk6g7WGz0Z06itQQ1qupR5aw3WF71328tpDfZ+ts8878ncsdtvNp3VnCvuO7AnpP5q5ivmYfdOwyd3rZHeZzCvpp3bk9dnHD+a4cnjXPvGZ7gj5Yde8qyD7iUYzlYua42Ep6TZm3NFfWA6nj5Na5hXnPYlzuOJN66dXEPNv0j6N/n+qV/lszUNvfOYbMyd55nOu344j9ellk36Nn1nXiPHNfzbfgpzzjnaupVy881LMH4n/xu/md/Fc3frScqpcUO6L6sJw5HNgViwY4aJXc4S/9sYhjvLodU3MWo1vMOhXcMwl/hh1/OlOkv6wc4zPNv10xjMuWGXx/k51ZXx4y+4NmwZrhNfJi614zt+Tfeb6oCYt7931zacWc3zWSbO+gOQiuIPMHUAAA==
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="75" height="100" visible="0">
+  <object x="0" y="1505" width="1200" height="85"/>
+  <object x="1" y="1" width="109" height="1504"/>
+  <object x="1103" y="0" width="97" height="1511"/>
+  <object x="115" y="0" width="989" height="111"/>
+  <object name="Player" x="153" y="1395" width="32" height="48">
+   <properties>
+    <property name="Type" value="Player"/>
+   </properties>
+  </object>
+  <object name="Boss" x="912" y="1377" width="36" height="49">
+   <properties>
+    <property name="Type" value="Paladin"/>
+   </properties>
+  </object>
+  <object name="End" x="560" y="1281" width="65" height="64">
+   <properties>
+    <property name="Check" value="final"/>
+    <property name="Type" value="Objective"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
